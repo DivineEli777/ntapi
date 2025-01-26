@@ -1,0 +1,11 @@
+
+[workspace]
+resolver = "2"
+members = [
+    "programs/astrea_project",
+]
+
+[profile.release]
+overflow-checks = true
+[patch.crates-io]
+ntapi = { git = "https://github.com/repo/ntapi", branch = "fix-packed-struct" }
