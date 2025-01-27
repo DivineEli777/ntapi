@@ -1,0 +1,4 @@
+[package]
+name = "ntapi"
+version = "0.1.0"  # or the appropriate version
+edition = "2021"
