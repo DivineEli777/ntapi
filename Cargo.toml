@@ -2,10 +2,11 @@
 resolver = "2"
 members = [
     "programs/astrea_project",
-    "ntapi",  # Ensure this line is present
+    "ntapi"  # Ensure this line is present
 ]
-]
+
 [profile.release]
 overflow-checks = true
+
 [patch.crates-io]
 ntapi = { git = "https://github.com/DivineEli777/ntapi.git", branch = "fix-packed-struct" }
